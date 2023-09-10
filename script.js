@@ -45,7 +45,7 @@ function draw(y, x, color) {
   ctx.strokeStyle = "black";
   ctx.fillStyle = color;
   ctx.fillRect(y * 10, 250 - x * 10, 10, 10);
-  ctx.strokeRect((y * 10) - 1, (250 - x * 10) - 1, 10, 10);
+  ctx.strokeRect((y * 10)-1, (250 - x * 10)-1, 10, 10);
 }
 
 function keyLogger() {
